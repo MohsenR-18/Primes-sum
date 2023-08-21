@@ -1,0 +1,11 @@
+To start coding the solution, we need to pay attention to three things :
+
+. If the N is equal to (1, 2 , 3) we need to return "No"
+. Every even number can be expressed as sum of two prime numbers
+. If the number is odd we should do as follow
+
+# Odd numbers
+If the N is an odd number, first we should subtract 2 from N and pass the result as an argument to "isPrime()" method,
+then you should make a for loop that the "i" goes from 2 to (the square root of N plus one),
+finally inside your for loop make a condition which checks if the reminder of N(the N-2 you passed to "isPrime()" method) divided by i is equal to zero or not 
+(if yes then return "No" cause the N can not be expressed as sum of two prime numbers)
