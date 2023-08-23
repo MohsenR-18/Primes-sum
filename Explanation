@@ -16,3 +16,5 @@ divided by "i" is either equal to zero or not.
 (if yes, then return "No", cause the N can't be expressed as sum of two prime numbers)
 
 Finally if Nothing happened and you reached the end of for loop, return "yes" cause the N can be expressed as sum of two prime numbers.
+
+newLine
