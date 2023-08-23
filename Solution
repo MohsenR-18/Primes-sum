@@ -15,6 +15,6 @@ def isPrime(N):
             return "No"
     return "Yes"
 
-N = # pass your N
+N = # pass N
 result = isSumOfTwo(N)
 print(result)
