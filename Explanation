@@ -1,5 +1,3 @@
-new line
-
 Before starting to write a solution, you need to pay attention to three things:
 
 . If the N equals to (1, 2 , 3), then return "No"
@@ -17,5 +15,3 @@ divided by "i" is either equal to zero or not.
 (if yes, then return "No", cause the N can't be expressed as sum of two prime numbers)
 
 Finally if Nothing happened and you reached the end of for loop, return "yes" cause the N can be expressed as sum of two prime numbers.
-
-new line
